@@ -8,9 +8,11 @@ int b = Convert.ToInt32(Console.ReadLine());
 
 if(a >= b)
 {
+    Console.WriteLine("Min: " + b);
     Console.WriteLine("Max: " + a);
 }
 else 
 {
+    Console.WriteLine("Min: " + a);
     Console.WriteLine("Max: " + b);
 }
