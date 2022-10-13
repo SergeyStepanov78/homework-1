@@ -6,7 +6,9 @@ int a = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите второе число: ");
 int b = Convert.ToInt32(Console.ReadLine());
 
-if(a >= b)
+if(a != b)
+{
+    if(a > b)
 {
     Console.WriteLine("Min: " + b);
     Console.WriteLine("Max: " + a);
@@ -15,4 +17,8 @@ else
 {
     Console.WriteLine("Min: " + a);
     Console.WriteLine("Max: " + b);
+}
+}
+else{
+    Console.WriteLine("Введите, пожалуйста, разные числа");
 }
