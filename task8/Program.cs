@@ -1,13 +1,13 @@
 ﻿// Задача 8: Напишите программу, которая на вход принимает число (N), а на выходе показывает все чётные числа от 1 до N.
 
 Console.Write("Введите число больше 1: ");
-int a = Convert.ToInt32(Console.ReadLine());
+int a = Convert.ToInt32(Console.ReadLine()); // а что если ввести 2?
 
 int i = 2;
 
-if (a > 1)
+if (a > 1) 
 {
-    while (i < a)
+    while (i < a) // 2 = 2, условие не выполняется и конец программы
     {
         Console.Write(i + " ");
         i += 2;
